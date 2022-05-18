@@ -12,7 +12,7 @@ export default function App() {
         <ul>
           <li>
             <Link className={"text-white text-decoration-none"} to={"/"}>
-              <FaHome size={70} />
+              <FaHome size={40} />
             </Link>
           </li>
         </ul>

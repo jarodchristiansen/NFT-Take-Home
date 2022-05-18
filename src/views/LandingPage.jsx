@@ -39,6 +39,7 @@ function LandingPage() {
         const startingData = res.data?.result;
         if (startingData) {
           setStartingCollections(startingData);
+          setRequestedCollections();
           setIsLoading(false);
         }
       });
@@ -47,7 +48,6 @@ function LandingPage() {
   const getStartingNFTS = () => {
     setIsLoading(true);
     // let filterString = JSON.stringify({ collection: "Bored Ape Yacht Club" });
-
     axios
       .get(
         // `https://ftx.us/api/nft/nfts_filtered?startInclusive=0&endExclusive=25&nft_filter_string=${filterString}`

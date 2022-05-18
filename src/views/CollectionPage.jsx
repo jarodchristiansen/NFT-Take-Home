@@ -78,7 +78,7 @@ const CollectionPage = () => {
         ) : (
           <div>
             <span className={"text-white"}>
-              No NFTs Found for this collection
+              No NFTs found for this collection
             </span>
           </div>
         )}
