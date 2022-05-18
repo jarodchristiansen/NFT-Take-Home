@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.standardized-button {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+:root {
+  --primary-color: #04698d;
+  --dark-color: #1e1e1e;
+  --dark-accent-color: #111b33;
+}

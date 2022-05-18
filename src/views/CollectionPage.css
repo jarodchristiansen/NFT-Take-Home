@@ -1,0 +1,8 @@
+.collection-info-container {
+    border: 2px solid white;
+    background-color: var(--dark-accent-color);
+}
+
+.collection-image-container {
+    max-height: 300px;
+}
